@@ -19,16 +19,17 @@ header {
   max-width: 784px;
   margin-left: auto;
   margin-right: auto;
-  padding: 8px 24px 24px 24px;
-  background-color: white;
-}
-
-section.max-width-wrapper {
-  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+  /* I have commented these padding out because I am assuming white is not also commented and adding
+    padding will have background color as gray without the white background
+  */
+  /* padding-left: 24px;
+  padding-right: 24px; */
+  /* This white background will not mostly be coming here since becuase only the functionalities are reusable*/
+  /* background-color: white;  */
 }
 
 .intro-chunk {
-  /* padding: 24px; */
+  padding: 8px 24px 24px 24px;
 }
 
 main {
@@ -52,11 +53,9 @@ p {
 }
 
 .card {
-  /* background-color: white; */
-  /* padding-left: 16px; */
-  /* padding-right: 16px; */
-  /* border-bottom: 8px solid hsla(0, 0%, 60%, 1); */
-  /* padding: 8px 24px 24px 24px; */
+  background-color: white;
+  border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+  padding: 8px 24px 24px 24px;
 }
 
 .indented-heading {
