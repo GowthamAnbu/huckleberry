@@ -11,6 +11,8 @@ body {
 
 header {
   border-bottom: 8px solid hsla(0, 0%, 60%, 1);
+  padding-top: 96px;
+  padding-bottom: 64px;
 }
 
 .max-width-wrapper {
