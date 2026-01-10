@@ -45,6 +45,8 @@ strong {
 p {
   line-height: 1.5rem;
   font-size: 1.25rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .card {
